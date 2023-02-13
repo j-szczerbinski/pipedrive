@@ -5,11 +5,11 @@ import styles from './NavLink.module.scss';
 const NavLink = () => (
     <BrowserRouter>
         <Routes>
-            <Route path="/" element={<UnserService />} />
+            {/* <Route path="/" element={<UnserService />} />
             <Route path="/" element={<Ablauf />} />
             <Route path="/" element={<CaseStudies />} />
             <Route path="/" element={<Pricing />} />
-            <Route path="/" element={<FAQs />} />
+            <Route path="/" element={<FAQs />} /> */}
         </Routes>
         <Link className={styles.link} to="/UnserService">Unser Service</Link>
         <Link className={styles.link} to="/Ablauf">Ablauf</Link>
