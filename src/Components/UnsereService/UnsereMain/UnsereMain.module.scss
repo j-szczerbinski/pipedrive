@@ -1,9 +1,27 @@
 .wrapper{
     display: flex;
     justify-content: space-between;
+    width: 755px;
+    height: 38vh;
+    text-align: center;
+    outline: solid red;
+    z-index: 5;
+    margin-top: 50px;
+    margin-left: 3.5vw;
 }
 
 .mainText {
     color: #017701;
     font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    margin: 0;
+}
+
+.subText{
+    font-weight: 400;
+    font-size: 15px;
+    width: 602px;
+    height: 72px;
+    margin: 0;
 }

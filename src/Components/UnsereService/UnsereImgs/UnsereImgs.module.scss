@@ -1,0 +1,33 @@
+.wrapper {
+    outline: blue;
+    // overflow: hidden;
+}
+
+.img1{
+    height: 415px;
+    width: 850px;
+    background-color: gray;
+    border-radius: 50px;
+    margin-top: 75px;
+    position: absolute;
+    left: 320px;
+}
+
+.img2{
+    height: 270px;
+    width: 30vw;
+    background-color: lightgray;
+    border-radius: 50px;
+    position: absolute;
+    top: 600px;
+    left: 20px;
+}
+ .img3{
+    height: 270px;
+    width: 40vw;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    position: absolute;
+    right: 20px;
+    top: 620px;
+ }
