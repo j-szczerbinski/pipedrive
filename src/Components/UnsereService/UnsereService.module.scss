@@ -11,3 +11,19 @@
     height: auto;
     flex-direction: column;
 }
+
+.vectorLeft{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 400px;
+    left: 100px;
+}
+
+.vectorRight{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    right: 10px;
+    top: 500px;
+}
