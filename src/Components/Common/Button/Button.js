@@ -1,8 +1,12 @@
 import React from "react";
-import styles from './Button.module.scss';
 
-const Button = () => (
-    <button className={styles.button}>Gespräch vereinbaren</button>
+const Button = (props) => (
+    <button 
+        className={`${props.class}`}
+        onClick={props.onClick}
+    >
+        {props.text}
+    </button>
 );
 
 export default Button;

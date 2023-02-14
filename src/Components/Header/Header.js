@@ -8,7 +8,11 @@ const Header = () => (
     <nav className={styles.wrapper}>
         <Logo />
         <NavLink />
-        <Button />
+        <Button 
+            text="Gespräch vereinbaren"
+            class={styles.headerBtn}
+            onClick={() => alert("pressed the header button")}
+        />
     </nav>
 );
 

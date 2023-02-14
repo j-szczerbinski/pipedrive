@@ -6,3 +6,19 @@
     padding-left: 100px;
     padding-right: 100px;
 }
+
+.headerBtn{
+    color: #FFFFFF;
+    background-color: #6861F2;
+    height: 30px;
+    width: 220px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    top: 12px;
+    font-family: inherit;
+    
+    &:hover{
+        background-color: #4b46ad;
+    }
+}
