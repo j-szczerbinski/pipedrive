@@ -3,6 +3,7 @@ import Header from './Components/Header/Header';
 import UnsereService from './Components/UnsereService/UnsereService';
 import MehrAbs from './Components/MehrAbs/MehrAbs';
 import MehrKund from './Components/MehrKund/MehrKund';
+import Ablauf from './Components/Ablauf/Ablauf';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <UnsereService />
       <MehrAbs />
       <MehrKund />
+      <Ablauf />
     </div>
   );
 }

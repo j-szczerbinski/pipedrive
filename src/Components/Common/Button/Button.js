@@ -2,7 +2,7 @@ import React from "react";
 
 const Button = (props) => (
     <button 
-        className={`${props.class}`}
+        className={props.class}
         onClick={props.onClick}
     >
         {props.text}
