@@ -1,4 +1,4 @@
-.wrapper {
+.header {
     display: flex;
     margin: 0;
     text-align: center;
@@ -11,7 +11,7 @@
     z-index: 10000;
 }
 
-.headerBtn{
+.header__button{
     color: #FFFFFF;
     background-color: #6861F2;
     height: 30px;
@@ -27,6 +27,6 @@
     }
 }
 
-.linksWrapper{
+.header__links{
     width: 45vw;
 }

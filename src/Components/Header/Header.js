@@ -1,18 +1,18 @@
 import React from 'react';
 import styles from './Header.module.scss';
-import NavLink from './NavLink/NavLink';
+import NavLink from './NavLinks/NavLinks';
 import Logo from '../Logo/Logo';
 import Button from '../Common/Button/Button';
 
 const Header = () => (
-    <nav className={styles.wrapper}>
+    <nav className={styles.header}>
         <Logo />
-        <div className={styles.linksWrapper}>
+        <div className={styles.header__links}>
             <NavLink />
         </div>    
         <Button 
             text="Gespräch vereinbaren"
-            class={styles.headerBtn}
+            class={styles.header__button}
             onClick={() => alert("pressed the header button")}
         />
     </nav>
