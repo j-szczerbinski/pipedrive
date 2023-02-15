@@ -5,25 +5,25 @@
     width: 100vw;
     display: flex;
     overflow: hidden;
-}
 
-.UnsereService__wrapper__vectorLeft{
-    height: 300px;
-    width: 300px;
-    position: absolute;
-    top: 400px;
-    left: 100px;
-}
-
-.UnsereService__wrapper__vectorRight{
-    height: 300px;
-    width: 300px;
-    position: absolute;
-    right: 10px;
-    top: 66.3vh;
-}
-
-.UnsereService__wrapper__main{
-    height: auto;
-    flex-direction: column;
+    &__wrapper{
+        &__vectorLeft{
+            height: 300px;
+            width: 300px;
+            position: absolute;
+            top: 400px;
+            left: 100px;
+        }
+        &__vectorRight{
+            height: 300px;
+            width: 300px;
+            position: absolute;
+            right: 10px;
+            top: 66.3vh;
+        }
+        &__main{
+            height: auto;
+            flex-direction: column;
+        }
+    }
 }

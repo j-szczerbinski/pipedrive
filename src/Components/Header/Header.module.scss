@@ -9,24 +9,24 @@
     top: 0;
     background-color: #FFFFFF;
     z-index: 10000;
-}
 
-.header__button{
-    color: #FFFFFF;
-    background-color: #6861F2;
-    height: 30px;
-    width: 220px;
-    border: none;
-    border-radius: 10px;
-    position: relative;
-    top: 12px;
-    font-family: inherit;
-    
-    &:hover{
-        background-color: #4b46ad;
+    &__button{
+        color: #FFFFFF;
+        background-color: #6861F2;
+        height: 30px;
+        width: 220px;
+        border: none;
+        border-radius: 10px;
+        position: relative;
+        top: 12px;
+        font-family: inherit;
+
+        &:hover{
+            background-color: #4b46ad;
+        }
     }
-}
 
-.header__links{
-    width: 45vw;
+    &__links{
+        width: 45vw;
+    }
 }
