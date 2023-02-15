@@ -3,3 +3,28 @@
     flex-direction: column;
     text-align: center;
 }
+
+.tilesWrapper{
+    display: flex;
+    text-align: left;
+    margin-right: 50px;
+    margin-left: 100px;
+    justify-content: space-between;
+}
+
+.tile{
+    font-size: 20px;
+    color: #192435;
+    width: 292px;
+    margin-right: 1em;
+}
+
+h1 {
+    color: #192435;
+    font-size: 20px;
+}
+
+p{
+    color: #353535;
+    font-size: 16px;
+}

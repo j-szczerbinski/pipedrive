@@ -1,14 +1,19 @@
 import React from "react";
-import styles from './MehrKundTile.scss';
 
-const MehrKundTile = (props) => (
+const MehrKundTile = (props) => {
+    const style = {
+
+    }
+    
+    return(
     <div 
-        className={`${props.class}`}
+        className={props.class}
     >
-        {props.image}
-        {props.hText}
-        {props.text}
+        <img src={props.image} />
+        <h1>{props.headText}</h1>
+        <p>{props.subText}</p>
     </div>
-);
+    );
+};
 
 export default MehrKundTile;
