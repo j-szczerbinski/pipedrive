@@ -1,4 +1,4 @@
-.wrapper {
+.UnsereService {
     background-color: #D7F9D3;
     justify-content: center;
     height: 100vh;
@@ -7,12 +7,7 @@
     overflow: hidden;
 }
 
-.innerWrapper{
-    height: auto;
-    flex-direction: column;
-}
-
-.vectorLeft{
+.UnsereService__wrapper__vectorLeft{
     height: 300px;
     width: 300px;
     position: absolute;
@@ -20,10 +15,15 @@
     left: 100px;
 }
 
-.vectorRight{
+.UnsereService__wrapper__vectorRight{
     height: 300px;
     width: 300px;
     position: absolute;
     right: 10px;
     top: 66.3vh;
+}
+
+.UnsereService__wrapper__main{
+    height: auto;
+    flex-direction: column;
 }

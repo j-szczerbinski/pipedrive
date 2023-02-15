@@ -1,4 +1,4 @@
-.wrapper{
+.UnsereMain{
     display: flex;
     justify-content: space-between;
     width: 755px;
@@ -9,7 +9,7 @@
     margin-left: 3.5vw;
 }
 
-.mainText {
+.UnsereMain__headText {
     color: #017701;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -17,7 +17,7 @@
     margin: 0;
 }
 
-.subText{
+.UnsereMain__subText{
     font-weight: 400;
     font-size: 17px;
     width: 602px;
@@ -27,7 +27,7 @@
     left: 80px;
 }
 
-.leftBtn{
+.UnsereMain__button__left{
     background-color: #6861F2;
     color: #FFFFFF;
     border: none;
@@ -41,7 +41,7 @@
     }
 }
 
-.rightBtn{
+.UnsereMain__button__right{
     background-color: #FFFFFF;
     color: #6861F2;
     border: none;
