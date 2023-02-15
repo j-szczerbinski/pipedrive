@@ -1,6 +1,12 @@
 .link {
     text-decoration: none;
     color: #626262;
-    margin-top: 18px;
     font-size: .8em;
+    justify-content: space-between;
+    width: 10vw;
+}
+
+.wrapper{
+    margin-top: 18px;
+    display: flex;
 }

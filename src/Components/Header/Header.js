@@ -7,7 +7,9 @@ import Button from '../Common/Button/Button';
 const Header = () => (
     <nav className={styles.wrapper}>
         <Logo />
-        <NavLink />
+        <div className={styles.linksWrapper}>
+            <NavLink />
+        </div>    
         <Button 
             text="Gespräch vereinbaren"
             class={styles.headerBtn}
