@@ -9,29 +9,29 @@ import rightImage from "../../Images/MehrKund/right.png";
 
 
 const MehrKund = (props) => (
-    <div className={styles.wrapper}>
+    <div className={styles.MehrKund}>
         <MehrKundUpper />
-        <div className={styles.tilesWrapper}>
+        <div className={styles.MehrKund__tiles}>
             <MehrKundTile 
-            class={styles.tile}
+            class={styles.MehrKund__tiles__tile}
             image={leftImage}
             headText="Mehr Kundenabschlüsse"
             subText="Effizientere Bearbeitung, Kunden individuell Ansprechen, alle relevanten"
             />
             <MehrKundTile 
-            class={styles.tile}
+            class={styles.MehrKund__tiles__tile}
             image={leftMiddleImage}
             headText="Vollständige Transparenz"
             subText="Zeit, Leerlauf, Klare Struktur, alle relevanten Informationen zu Leads an einem Ort,"
             />
             <MehrKundTile 
-            class={styles.tile}
+            class={styles.MehrKund__tiles__tile}
             image={rightMiddleImage}
             headText="Motivierteres Vertriebsteam"
             subText="Zielsetzung, einfacher Informationsaustausch über Kunden"
             />
             <MehrKundTile 
-            class={styles.tile}
+            class={styles.MehrKund__tiles__tile}
             image={rightImage}
             headText="Volle Flexibilität"
             subText="Hält mit deinem Wachstum Schritt, Individualisierte Lösungen"
