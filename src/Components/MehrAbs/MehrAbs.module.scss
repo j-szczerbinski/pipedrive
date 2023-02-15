@@ -1,21 +1,21 @@
-.wrapper{
+.MehrAbs{
     height: 70vh;
     margin-bottom: 20px;
-}
 
-.innerWrapper{
-    width: 55vw;
-    height: 30vh;
-    display: flex;
-    position: relative;
-    left: 20vw;
-    top: 15vh;
-}
+    &__wrapper{
+        width: 55vw;
+        height: 30vh;
+        display: flex;
+        position: relative;
+        left: 20vw;
+        top: 15vh;
 
-.text{
-    font-size: 35px;
-    font-weight: 600;
-    color: #192435;
+        &__text{
+            font-size: 35px;
+            font-weight: 600;
+            color: #192435;
+        }
+    }
 }
 
 span{
