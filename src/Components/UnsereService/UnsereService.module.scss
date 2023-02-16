@@ -1,29 +1,88 @@
-.UnsereService {
+.unsereService {
     background-color: #D7F9D3;
     justify-content: center;
-    height: 100vh;
+    height: 110vh;
     width: 100vw;
     display: flex;
     overflow: hidden;
+}
 
-    &__wrapper{
-        &__vectorLeft{
-            height: 300px;
-            width: 300px;
-            position: absolute;
-            top: 400px;
-            left: 100px;
-        }
-        &__vectorRight{
-            height: 300px;
-            width: 300px;
-            position: absolute;
-            right: 10px;
-            top: 66.3vh;
-        }
-        &__main{
-            height: auto;
-            flex-direction: column;
-        }
-    }
+.unsereService__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 755px;
+    height: 38vh;
+    text-align: center;
+    z-index: 5;
+    margin-top: 40vh;
+}
+
+.unsereService__vectorLeft{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 60vh;
+    left: 5vw;
+    z-index: -5;
+}
+
+.unsereService__vectorRight{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    right: 5vw;
+    top: 76.3vh;
+    z-index: -5;
+}
+
+.unsereService__h1{
+    color: #017701;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 55px;
+    margin: 0;
+}
+
+.unsereService__h2{
+    font-weight: 400;
+    font-size: 17px;
+    width: 602px;
+    height: 72px;
+    margin: 0;
+    position: relative;
+    left: 80px;
+    margin-top: 20px;
+}
+
+.unsereService__buttonsContainer{
+    margin-top: 20px;
+}
+
+.unsereService__leftButton{
+    background-color: #6861F2;
+    color: #FFFFFF;
+    border: none;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    font-family: inherit;
+}
+
+.unsereService__rightButton{
+    background-color: #FFFFFF;
+    color: #6861F2;
+    border: none;
+    height: 50px;
+    width: 130px;
+    border-radius: 10px;
+    margin-left: 30px;
+    font-family: inherit;
+}
+
+.unsereService__img{
+    width: 80vw;
+    position: relative;
+    left: -16vw;
+    top: 9vh;
 }
