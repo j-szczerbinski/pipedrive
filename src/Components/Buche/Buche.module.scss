@@ -1,0 +1,64 @@
+.buche{
+    background-image: url(../../Images/Buche/background.png);
+    height: 654px;
+    position: relative;
+    top: -15px;
+    background-size: cover;
+    background-position: center;
+}
+
+.buche__container{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    width: 602px;
+    height: 439px;
+    position: relative;
+    top: 15%;
+    left: 50%;
+}
+
+.buche__innerContainer{
+        margin: 42px 36px;
+}
+
+.buche__textContainer{
+    position: relative;
+    top: 30px;
+}
+
+.buche__h1{
+    font-size: 40px;
+    color: #192435;
+    font-weight: 600;
+    letter-spacing: 97%;
+    line-height: 116%;
+    margin-bottom: 0;
+}
+
+.buche__h2{
+    font-size: 18px;
+    color: #000000;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    margin-top: 30px;
+}
+
+.buche__list{
+    list-style-type: "✔ ";
+}
+
+.buche__listItem{
+
+}
+
+.buche__buttonContainer{
+
+}
+
+.buche__buttonLeft{
+
+}
+
+.button__buttonRight{
+
+}

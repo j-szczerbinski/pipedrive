@@ -4,6 +4,7 @@ import UnsereService from './Components/UnsereService/UnsereService';
 import MehrAbs from './Components/MehrAbs/MehrAbs';
 import MehrKund from './Components/MehrKund/MehrKund';
 import Ablauf from './Components/Ablauf/Ablauf';
+import Buche from './Components/Buche/Buche';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <MehrAbs />
       <MehrKund />
       <Ablauf />
+      <Buche />
     </div>
   );
 }
