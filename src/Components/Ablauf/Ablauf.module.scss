@@ -1,16 +1,21 @@
-.header{
+.ablauf{
+    height: 175vh;
+    overflow: hidden;
+}
+
+.ablauf__header{
     color: #192435;
     font-size: 40px;
     text-align: center;
     margin-top: 180px;
+    margin-bottom: 0;
 }
 
-.wrapper{
-    height: 160vh;
-    overflow: hidden;
+.ablauf__tilesContainer{
+    margin-top: 150px;
 }
 
-.tile1 {
+.ablauf__tile1 {
     background-color: #017737;
     border-radius: 10px;
     display: flex;
@@ -19,11 +24,40 @@
     left: 7vw;
 }
 
-.rightSide1 {
+.ablauf__tile2 {
+    background-color: #017737;
+    border-radius: 10px;
+    display: flex;
+    width: 500px;
+    padding-right: 20px;
+    position: relative;
+    left: 55vw;
+}
+
+.ablauf__tile3 {
+    background-color: #017737;
+    border-radius: 10px;
+    display: flex;
+    width: 450px;
+    position: relative;
+    left: 7vw;
+}
+
+.ablauf__tile4 {
+    background-color: #017737;
+    border-radius: 10px;
+    display: flex;
+    width: 560px;
+    padding-right: 20px;
+    position: relative;
+    left: 52vw;
+}
+
+.ablauf__side {
     margin-left: 20px;
 }
 
-.number{
+.ablauf__number{
     color: #FFFFFF;
     margin: 0;
     margin-top: 20px;
@@ -34,7 +68,7 @@
     text-align: center;
 }
 
-.text{
+.ablauf__text{
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 300;
@@ -47,7 +81,7 @@ img{
     margin-bottom: 10px;
 }
 
-.button{
+.ablauf__button{
     font-family: inherit;
     border: none;
     background-color: #E1DFFC;
@@ -56,58 +90,35 @@ img{
     color: #6881F2;
 }
 
-.noButton{
+.ablauf__noButton{
     display: none;
 }
 
-.tile2 {
-    background-color: #017737;
-    border-radius: 10px;
-    display: flex;
-    width: 500px;
-    padding-right: 20px;
+.ablauf__arrow1{
     position: relative;
-    left: 55vw;
+    left: 650px;
+    top: -900px;
 }
 
-.tile3 {
-    background-color: #017737;
-    border-radius: 10px;
-    display: flex;
-    width: 450px;
+.ablauf__arrow2{
     position: relative;
-    left: 7vw;
+    left: 470px;
+    top: -700px;
 }
 
-.tile4 {
-    background-color: #017737;
-    border-radius: 10px;
-    display: flex;
-    width: 560px;
-    padding-right: 20px;
+.ablauf__arrow3{
     position: relative;
-    left: 52vw;
+    left: 300px;
+    top: -500px;
 }
 
-.arrow1{
-    position: absolute;
-    left: 43vw;
-    top: 295vh;
+.ablauf__vectorRight{
+    position: relative;
+    left: 930px;
+    top: -900px;
 }
 
-.arrow2{
-    position: absolute;
-    left: 40vw;
-    top: 325vh;
-}
-
-.arrow3{
-    position: absolute;
-    left: 40vw;
-    top: 350vh;
-}
-
-.vectorRight{
-    position: absolute;
-    right: 0;
+.ablauf__circlesImg{
+    position: relative;
+    left: -600px;
 }

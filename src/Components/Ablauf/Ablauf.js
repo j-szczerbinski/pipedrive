@@ -12,58 +12,60 @@ import vectorRight from "../../Images/Ablauf/vectorRight.png";
 import circlesBottom from "../../Images/Ablauf/circlesBottom.png";
 
 const Ablauf = () => (
-    <div className={styles.wrapper}>
-        <h1 className={styles.header}>Ablauf</h1>
-        <div className={styles.tilesWrapper}>
-            <img className={styles.vectorRight} src={vectorRight} />
-            <AblaufTile 
-                image={image1}
-                tileWrapper={styles.tile1}
-                text="Wir laden Sie ein, gemeinsam Pipedrive kennenzulernen"
-                number="1"
-                button="30 Tage testen"
-                rightSideDiv={styles.rightSide1}
-                numberStyle={styles.number}
-                textStyle={styles.text}
-                buttonClass={styles.button}
-            />
-            <img className={styles.arrow1} src={arrow1} />
-            <AblaufTile 
-                image={image2}
-                tileWrapper={styles.tile2}
-                text="Gemeinsam das volle Pipedrive Potenzial entdecken"
-                number="2"
-                button="Gespräch vereinbaren"
-                rightSideDiv={styles.rightSide1}
-                numberStyle={styles.number}
-                textStyle={styles.text}
-                buttonClass={styles.button}
-            />
-            <img className={styles.arrow2} src={arrow2} />
-            <AblaufTile 
-                image={image3}
-                tileWrapper={styles.tile3}
-                text="On-Boarding"
-                number="3"
-                rightSideDiv={styles.rightSide1}
-                numberStyle={styles.number}
-                textStyle={styles.text}
-                buttonClass={styles.noButton}
-            />
-            <img className={styles.arrow3} src={arrow3} />
-            <AblaufTile 
-                image={image4}
-                tileWrapper={styles.tile4}
-                text="Integration und Automatisierung | Mit individuellen Lösungen Pipedrive noch effektiver machen"
-                number="4"
-                rightSideDiv={styles.rightSide1}
-                numberStyle={styles.number}
-                textStyle={styles.text}
-                buttonClass={styles.noButton}
-            />
-            <img className={styles.circlesBottom} src={circlesBottom} />
+    <section className={styles.ablauf}>
+        <h1 className={styles.ablauf__header}>Ablauf</h1>
+        <div className={styles.ablauf__container}>
+            <div className={styles.ablauf__tilesContainer}>
+                <AblaufTile 
+                    image={image1}
+                    tileClass={styles.ablauf__tile1}
+                    text="Wir laden Sie ein, gemeinsam Pipedrive kennenzulernen"
+                    number="1"
+                    button="30 Tage testen"
+                    sideClass={styles.ablauf__side}
+                    numberClass={styles.ablauf__number}
+                    textClass={styles.ablauf__text}
+                    buttonClass={styles.ablauf__button}
+                />
+                <AblaufTile 
+                    image={image2}
+                    tileClass={styles.ablauf__tile2}
+                    text="Gemeinsam das volle Pipedrive Potenzial entdecken"
+                    number="2"
+                    button="Gespräch vereinbaren"
+                    sideClass={styles.ablauf__side}
+                    numberClass={styles.ablauf__number}
+                    textClass={styles.ablauf__text}
+                    buttonClass={styles.ablauf__button}
+                />
+                <AblaufTile 
+                    image={image3}
+                    tileClass={styles.ablauf__tile3}
+                    text="On-Boarding"
+                    number="3"
+                    sideClass={styles.ablauf__side}
+                    numberClass={styles.ablauf__number}
+                    textClass={styles.ablauf__text}
+                    buttonClass={styles.ablauf__noButton}
+                />
+                <AblaufTile 
+                    image={image4}
+                    tileClass={styles.ablauf__tile4}
+                    text="Integration und Automatisierung | Mit individuellen Lösungen Pipedrive noch effektiver machen"
+                    number="4"
+                    sideClass={styles.ablauf__side}
+                    numberClass={styles.ablauf__number}
+                    textClass={styles.ablauf__text}
+                    buttonClass={styles.ablauf__noButton}
+                />
+            </div>
+            <img className={styles.ablauf__arrow1} src={arrow1} />
+            <img className={styles.ablauf__arrow2} src={arrow2} />
+            <img className={styles.ablauf__arrow3} src={arrow3} />
+            <img className={styles.ablauf__vectorRight} src={vectorRight} />
+            <img className={styles.ablauf__circlesImg} src={circlesBottom} />
         </div>
-    </div>
+    </section>
 );
 
 export default Ablauf;
