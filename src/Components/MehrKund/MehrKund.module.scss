@@ -1,30 +1,40 @@
-.MehrKund{
+.mehrKund{
     display: flex;
     flex-direction: column;
     text-align: center;
-
-    &__tiles{
-        display: flex;
-        text-align: left;
-        margin-right: 50px;
-        margin-left: 100px;
-        justify-content: space-between;
-
-        &__tile{
-            font-size: 20px;
-            color: #192435;
-            width: 292px;
-            margin-right: 1em;
-        }
-    }
 }
 
-h1 {
-    color: #192435;
+.mehrKund__tilesContainer{
+    display: flex;
+    text-align: left;
+    margin-right: 50px;
+    margin-left: 100px;
+    justify-content: space-between;
+}
+
+.mehrKund__tile{
     font-size: 20px;
+    color: #192435;
+    width: 292px;
+    margin-right: 1em;
+    margin-top: 100px;
 }
 
-p{
+.mehrKund__h1{
+    font-size: 40px;
+    color: #192436;
+    font-weight: 600;
+    margin: none;
+    margin-bottom: 0;
+}
+
+.mehrKund__h2{
+    font-size: 20px;
     color: #353535;
-    font-size: 16px;
+    font-weight: 400;
+    width: 40vw;
+    margin-top: 30px;
+    position: relative;
+    left: 29vw;
+    margin-bottom: 0;
 }
