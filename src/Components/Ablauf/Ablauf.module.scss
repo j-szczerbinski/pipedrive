@@ -6,22 +6,36 @@
 .ablauf__header{
     color: #192435;
     font-size: 40px;
+    line-height: 116%;
+    letter-spacing: -0.03em;
     text-align: center;
-    margin-top: 180px;
+    margin-top: 209px;
     margin-bottom: 0;
+}
+.ablauf__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .ablauf__tilesContainer{
-    margin-top: 150px;
+    margin-top: 112.45px;
+    width: 1195.87px;
+    height: 830.12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .ablauf__tile1 {
-    background-color: #017737;
-    border-radius: 10px;
     display: flex;
-    width: 500px;
-    position: relative;
-    left: 7vw;
+    align-items: center;
+    background-color: #017737;
+    border-radius: 12px;
+    width: 484.87px;
+    height: 205.87px;
+    gap: 18px;
 }
 
 .ablauf__tile2 {
@@ -53,41 +67,63 @@
     left: 52vw;
 }
 
-.ablauf__side {
-    margin-left: 20px;
+.ablauf__side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0;
+    gap: 10px;
+    height: 160px;
+}
+
+.ablauf__textContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 5px;
 }
 
 .ablauf__number{
     color: #FFFFFF;
     margin: 0;
-    margin-top: 20px;
     font-size: 15px;
-    background-color: #018500;
+    background-color: rgba($color: #FFFFFF, $alpha: 0.05);
     border-radius: 50%;
-    width: 25px;
+    height: 26px;
+    width: 26px;
+    display: flex;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+    line-height: 22px;
+    letter-spacing: -0.03em;
 }
 
 .ablauf__text{
+    font-family: 'Inter', sans-serif;
     color: #FFFFFF;
     font-size: 16px;
-    font-weight: 300;
-    margin-top: 0;
-}
-
-img{
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    font-weight: 400;
+    line-height: 155%;
 }
 
 .ablauf__button{
+    width: 137px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8.86px 0px;
+    gap: 8.86px;
     font-family: inherit;
     border: none;
     background-color: #E1DFFC;
-    padding: 10px 30px 10px 30px;
-    border-radius: 10px;
+    border-radius: 8.86px;
     color: #6881F2;
+    font-weight: 500;
+    font-size: 12.4px;
+    line-height: 19px;
 }
 
 .ablauf__noButton{

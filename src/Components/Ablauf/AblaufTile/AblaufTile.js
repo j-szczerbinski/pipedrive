@@ -4,8 +4,10 @@ const AblaufTile = (props) => (
     <div className={props.tileClass}>
         <img src={props.image} />
         <div className={props.sideClass}>
-            <h1 className={props.numberClass}>{props.number}</h1>
-            <p className={props.textClass}>{props.text}</p>
+            <div className={props.textContainer}>
+                <h1 className={props.numberClass}>{props.number}</h1>
+                <p className={props.textClass}>{props.text}</p>
+            </div>
             <button className={props.buttonClass}>{props.button}</button>
         </div>    
     </div>

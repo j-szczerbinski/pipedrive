@@ -23,6 +23,7 @@ const Ablauf = () => (
                     number="1"
                     button="30 Tage testen"
                     sideClass={styles.ablauf__side}
+                    textContainer={styles.ablauf__textContainer}
                     numberClass={styles.ablauf__number}
                     textClass={styles.ablauf__text}
                     buttonClass={styles.ablauf__button}
