@@ -9,9 +9,9 @@ const MehrKundTile = (props) => {
     <div 
         className={props.class}
     >
-        <img src={props.image} />
-        <h1>{props.headText}</h1>
-        <p>{props.subText}</p>
+        <img className={props.imgStyle} src={props.image} />
+        <h1 className={props.hStyle}>{props.headText}</h1>
+        <p className={props.sStyle}>{props.subText}</p>
     </div>
     );
 };
