@@ -1,118 +1,176 @@
 .unsereService {
     background-color: #D7F9D3;
     display: flex;
-    flex-direction: column;
     overflow: hidden;
+    justify-content: center;
     padding-top: 115px;
-    max-width: 1440px;
+    max-width: 100%;
     width: 100%;
-    height: 869px;
+    height: 839px;
 }
 
 .unsereService__container{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     width: 100%;
     max-width: 1230px;
     text-align: center;
     z-index: 5;
-}
-
-// .unsereService__vectorLeft{
-//     height: 300px;
-//     width: 300px;
-//     position: absolute;
-//     top: 60vh;
-//     left: 5vw;
-//     z-index: -6;
-// }
-
-// .unsereService__vectorRight{
-//     height: 300px;
-//     width: 300px;
-//     position: absolute;
-//     right: 5vw;
-//     top: 76.3vh;
-//     z-index: -5;
-// }
-
-.unsereService__textContainer{
-    max-width: 755px;
     justify-content: center;
 }
 
+.unsereService__innerContainer{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.unsereService__vectorLeft{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 60vh;
+    left: 5vw;
+    z-index: -6;
+}
+
+.unsereService__vectorRight{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    right: 5vw;
+    top: 76.3vh;
+    z-index: -6;
+}
+
+.unsereService__textContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    max-width: 755px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 90px;
+}
+
 .unsereService__h1{
+    width: 759px;
+    height: 140px;
     color: #017701;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    font-size: 55px;
+    font-size: 60px;
+    line-height: 116%;
     margin: 0 0 20px;
+    text-align: center;
+    letter-spacing: -0.03em;
 }
 
 .unsereService__h2{
     font-weight: 400;
-    font-size: 17px;
-    width: 602px;
+    font-size: 20px;
+    width: 603px;
     height: 72px;
     margin: 0 0 20px;
+    line-height: 180%;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    color: #000000;
+    opacity: 0.8;
     position: relative;
-    left: 80px;
+
 }
 
 .unsereService__buttonsContainer{
-    margin-bottom: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 387px;
+    height: 50px;
 }
 
 .unsereService__leftButton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 14px 30px;
+    gap: 10px;
     background-color: #6861F2;
     color: #FFFFFF;
     border: none;
     height: 50px;
-    width: 200px;
+    width: 208px;
     border-radius: 10px;
-    font-family: inherit;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
 }
 
 .unsereService__rightButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
     background-color: #FFFFFF;
     color: #6861F2;
     border: none;
     height: 50px;
-    width: 130px;
+    width: 155px;
     border-radius: 10px;
-    margin-left: 30px;
-    font-family: inherit;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
 }
 
 .unsereService__imgContainer{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    position: absolute;
     max-width: 1230px;
     width: 100%;
     max-height: 415px;
+    position: relative;
+    top: 30px;
 }
 
 .unsereService__middleImg{
-    position: relative;
     max-width: 926px;
     width: 100%;
+    height: 415px;
+    z-index: -4;
+    border-radius: 30px;
+    margin: 0;
 }
 
 .unsereService__leftImg{
-    max-width: 450px;
+    max-width: 480px;
     width: 100%;
-    max-height: 200px;
+    max-height: 270px;
     height: 100%;
-    position: relative;
     z-index: -5;
+    border-radius: 30px;
+    margin: 0 100% 0 0;
+    position: relative;
+    top: -276px;
 }
 
 .unsereService__rightImg{
     max-width: 602px;
     width: 100%;
-    margin: 0 0 0 50%;
-    position: relative;
+    height: 270px;
+    margin: 0 0 0 51%;
     z-index: -5;
+    border-radius: 30px;
+    position: relative;
+    top: -553px;
 }
