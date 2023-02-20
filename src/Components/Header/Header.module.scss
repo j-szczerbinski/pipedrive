@@ -12,11 +12,9 @@
 .header__container{
     height: 72px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 0;
-    gap: 5px;
-    width: 1200px;
+    width: 80%;
 }
 
 .header__logo{
@@ -33,9 +31,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 800px;
+    position: absolute;
+    right: 120px;
+    width: 60%;
+
+    @media (min-width: 1440px) {
+        
+    }
     height: 17px;
-    gap: 56px;
+    margin: 0 0 0 133px;
+}
+
+.header__linksContainer{
+    position: relative;
+    right: 15%;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
 }
 
 .header__link{
@@ -58,6 +70,6 @@
     width: 200px;
     border: none;
     border-radius: 10px;
-    font-family: inherit;
-    gap: 10px;
+    font-family: 'Inter', sans-serif;
+    margin: 0 0 0 133px;
 }
