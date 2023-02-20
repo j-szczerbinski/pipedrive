@@ -6,6 +6,7 @@ import MehrKund from './Components/MehrKund/MehrKund';
 import Ablauf from './Components/Ablauf/Ablauf';
 import Buche from './Components/Buche/Buche';
 import Referenzen from './Components/Referenzen/Referenzen';
+import Uber from './Components/Uber/Uber';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Ablauf />
       <Buche />
       <Referenzen />
+      <Uber />
     </div>
   );
 }

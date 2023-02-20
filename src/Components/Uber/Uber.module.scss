@@ -1,0 +1,57 @@
+.uber{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -14px;
+    margin: 99px 0 102px 0;
+    overflow: hidden;
+    width: 1440px;
+}
+
+.uber__container{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    gap: 35px;
+    width: 100%;
+}
+
+.uber__textContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 19px;
+    height: 133px;
+    width: 500px;
+}
+
+.uber__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 13px;
+}
+
+.uber__h1{
+    font-style: normal;
+    font-weight: 600;
+    margin: 0;
+    font-size: 38px;
+    line-height: 60px;
+    text-align: center;
+    color: #192435;
+}
+
+.uber__p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 149.5%;
+    text-align: center;
+    color: #353535;
+    opacity: 0.8;
+    margin: 0;
+}
