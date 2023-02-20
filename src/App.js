@@ -5,6 +5,7 @@ import MehrAbs from './Components/MehrAbs/MehrAbs';
 import MehrKund from './Components/MehrKund/MehrKund';
 import Ablauf from './Components/Ablauf/Ablauf';
 import Buche from './Components/Buche/Buche';
+import Referenzen from './Components/Referenzen/Referenzen';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <MehrKund />
       <Ablauf />
       <Buche />
+      <Referenzen />
     </div>
   );
 }
