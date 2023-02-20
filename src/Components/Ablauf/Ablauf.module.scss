@@ -36,45 +36,90 @@
     width: 484.87px;
     height: 205.87px;
     gap: 18px;
+    padding: 0 0 0 20px;
 }
 
 .ablauf__tile2 {
     background-color: #017737;
-    border-radius: 10px;
+    border-radius: 12.4px;
     display: flex;
-    width: 500px;
-    padding-right: 20px;
+    align-items: center;
+    gap: 18px;
+    padding: 0 0 0 20px;
+    width: 483.87px;
+    height: 207.77px;
     position: relative;
-    left: 55vw;
+    left: 48vw;
 }
 
 .ablauf__tile3 {
     background-color: #017737;
     border-radius: 10px;
     display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 18px;
     width: 450px;
     position: relative;
-    left: 7vw;
 }
 
 .ablauf__tile4 {
     background-color: #017737;
     border-radius: 10px;
     display: flex;
-    width: 560px;
-    padding-right: 20px;
+    align-items: center;
+    width: 571.87px;
+    height: 208.12px;
+    gap: 18px;
+    padding: 0 0 0 20px;
     position: relative;
-    left: 52vw;
+    left: 45vw;
 }
 
-.ablauf__side{
+.ablauf__image2{
+    width: 256.87px;
+    height: 167.77px;
+}
+
+.ablauf__side1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0;
+    height: 115.43px;
+}
+
+.ablauf__side2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0;
+    height: 160px;
+    width: 169px;
+}
+
+.ablauf__side3{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     padding: 0;
     gap: 10px;
-    height: 160px;
+    height: 115px;
+    width: 148px;
+}
+
+.ablauf__side4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0;
+    gap: 10px;
+    height: 115px;
+    width: 257px;
 }
 
 .ablauf__textContainer{
@@ -82,7 +127,6 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 0;
-    gap: 5px;
 }
 
 .ablauf__number{
@@ -107,9 +151,10 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 155%;
+    margin: 5px 0 10px 0;
 }
 
-.ablauf__button{
+.ablauf__button1{
     width: 137px;
     display: flex;
     justify-content: center;
@@ -126,35 +171,53 @@
     line-height: 19px;
 }
 
+.ablauf__button2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8.86px 0px;
+    gap: 8.86px;
+    width: 162px;
+    height: 35px;
+    background-color: #FFFFFF;
+    border-radius: 8.86px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 12.4px;
+    line-height: 19px;
+    text-align: center;
+    color: #6861F2;
+}
+
 .ablauf__noButton{
     display: none;
 }
 
 .ablauf__arrow1{
     position: relative;
-    left: 650px;
-    top: -900px;
+    top: -730px;
 }
 
 .ablauf__arrow2{
     position: relative;
-    left: 470px;
-    top: -700px;
+    top: -670px;
 }
 
 .ablauf__arrow3{
     position: relative;
-    left: 300px;
-    top: -500px;
+    top: -600px;
+    left: -30px;
 }
 
 .ablauf__vectorRight{
     position: relative;
-    left: 930px;
-    top: -900px;
+    top: -1400px;
+    left: 668px;
 }
 
 .ablauf__circlesImg{
     position: relative;
-    left: -600px;
+    top: -700px;
+    left: -45vw;
 }
