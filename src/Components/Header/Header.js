@@ -35,36 +35,42 @@ class Header extends React.Component {
                         class={styles.header__button}
                         onClick={() => alert("pressed the header button")}
                     />
-                    <Menu 
-                        width={ '100%' } 
-                        right 
-                        className={styles.header__hamburger}
-                        burgerButtonClassName={styles.hamburger__burgerButton}
-                        burgerBarClassName={styles.hamburger__burgerBar}
-                        crossButtonClassName={styles.hamburger__crossButton}
-                        crossClassName={styles.hamburger__cross}
-                    >
-                        {/* <BrowserRouter>
-                            <Routes>
-                                <Route path="/" element={<UnserService />} />
-                                <Route path="/" element={<Ablauf />} />
-                                <Route path="/" element={<CaseStudies />} />
-                                <Route path="/" element={<Pricing />} />
-                                <Route path="/" element={<FAQs />} />
-                            </Routes>
-                            <Link className={styles.header__link} to="/UnserService">Unser Service</Link>
-                            <Link className={styles.header__link} to="/Ablauf">Ablauf</Link>
-                            <Link className={styles.header__link} to="/CaseStudies">Case Studies</Link>
-                            <Link className={styles.header__link} to="/Pricing">Pricing</Link>
-                            <Link className={styles.header__link} to="/FAQs">FAQs</Link>
-                        </BrowserRouter> */}
-                        <a id='unserService' className={styles.hamburger__item} href="/">Unser Service</a>
-                        <a id='ablauf' className={styles.hamburger__item} href="/ablauf">Ablauf</a>
-                        <a id='caseStudies' className={styles.hamburger__item} href="/case_studies">Case Studies</a>
-                        <a id='pricing' className={styles.hamburger__item} href="/pricing">Pricing</a>
-                        <a id='faqs' className={styles.hamburger__item} href="/faqs">FAQs</a>
-                    </Menu>
                 </div>
+                <div className={styles.header__hamburgerContainer}>
+                        <Menu 
+                            disableOverlayClick
+                            isOpen={ false }
+                            width={ '100%' } 
+                            right 
+                            className={styles.header__hamburger}
+                            burgerButtonClassName={styles.hamburger__burgerButton}
+                            burgerBarClassName={styles.hamburger__burgerBar}
+                            crossButtonClassName={styles.hamburger__crossButton}
+                            crossClassName={styles.hamburger__cross}
+                            itemListClassName={styles.hamburger__itemList}
+                        >
+                            {/* <BrowserRouter>
+                                <Routes>
+                                    <Route path="/" element={<UnserService />} />
+                                    <Route path="/" element={<Ablauf />} />
+                                    <Route path="/" element={<CaseStudies />} />
+                                    <Route path="/" element={<Pricing />} />
+                                    <Route path="/" element={<FAQs />} />
+                                </Routes>
+                                <Link className={styles.header__link} to="/UnserService">Unser Service</Link>
+                                <Link className={styles.header__link} to="/Ablauf">Ablauf</Link>
+                                <Link className={styles.header__link} to="/CaseStudies">Case Studies</Link>
+                                <Link className={styles.header__link} to="/Pricing">Pricing</Link>
+                                <Link className={styles.header__link} to="/FAQs">FAQs</Link>
+                            </BrowserRouter> */}
+                            <h1 className={styles.hamburger__logo}>Pipedrive Masters</h1>
+                            <a id='unserService' className={styles.hamburger__item} href="/">Unser Service</a>
+                            <a id='ablauf' className={styles.hamburger__item} href="/ablauf">Ablauf</a>
+                            <a id='caseStudies' className={styles.hamburger__item} href="/case_studies">Case Studies</a>
+                            <a id='pricing' className={styles.hamburger__item} href="/pricing">Pricing</a>
+                            <a id='faqs' className={styles.hamburger__item} href="/faqs">FAQs</a>
+                        </Menu>
+                    </div>
             </nav>
         );
     }
