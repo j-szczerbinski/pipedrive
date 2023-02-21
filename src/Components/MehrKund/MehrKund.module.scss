@@ -10,47 +10,32 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1216px;
 }
 
 .mehrKund__tilesContainer{
     display: flex;
-    text-align: left;
-    align-items: flex-start;
+    flex-direction: column;
     justify-content: space-between;
     margin: 80px 0 0 0;
     gap: 40px;
+    @media (min-width: 1024px) {
+        flex-direction: row;
+        margin: 80px 40px 0 40px;
+    }
 }
 
-.mehrKund__tile12{
+.mehrKund__tile{
     font-size: 20px;
     color: #192435;
-    width: 270px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     padding: 0;
-}
-
-.mehrKund__tile3{
-    font-size: 20px;
-    color: #192435;
-    width: 286px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0;
-}
-
-.mehrKund__tile4{
-    font-size: 20px;
-    color: #192435;
-    width: 270px;
-    height: 201px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0;
+    margin: 0 20px;
+    @media (min-width: 1024px) {
+        align-items: flex-start;
+        text-align: left;
+    }
 }
 
 .mehrKund__img{
@@ -59,53 +44,16 @@
     margin: 0 0 30px 0;
 }
 
-.mehrKund__tileHeader1{
-    width: 252px;
-    height: 30px;
+.mehrKund__tileHeader{
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
     display: flex;
-    align-items: center;
-    margin: 0 0 7px;
-}
-
-.mehrKund__tileHeader2{
-    width: 262px;
-    height: 30px;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    margin: 0 0 7px;
-}
-
-.mehrKund__tileHeader3{
-    width: 286px;
-    height: 30px;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    margin: 0 0 7px;
-}
-
-.mehrKund__tileHeader4{
-    width: 160px;
-    height: 30px;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
+    flex-direction: column;
     margin: 0 0 7px;
 }
 
 .mehrKund__tilep{
-    width: 270px;
-    height: 78px;
     font-family: "Inter", sans-serif;
     font-weight: 500px;
     font-size: 16px;
@@ -120,29 +68,36 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 590px;
-    height: 126px;
+    margin: 0 20px;
+    @media (min-width: 768px) {
+        margin: 0 100px;
+    }
+    @media (min-width: 1024px) {
+        margin: 0 200px;
+    }
 }
 
 .mehrKund__h1{
-    font-size: 40px;
+    font-size: 32px;
     color: #192436;
     font-weight: 600;
     margin: 0;
     line-height: 116%;
     letter-spacing: -0.03em;
-    width: 479px;
-    height: 46px;
+    @media (min-width: 768px) {
+        font-size: 40px;
+    }
 }
 
 .mehrKund__h2{
-    font-size: 20px;
+    font-size: 16px;
     color: #353535;
     font-weight: 400;
-    width: 590px;
-    margin-top: 20px;
-    margin-bottom: 0;
+    margin: 10px 0 0 0;
     font-family: 'Inter', sans-serif;
     line-height: 149.5%;
     opacity: 0.6;
+    @media (min-width: 768px) {
+        font-size: 20px;
+    }
 }

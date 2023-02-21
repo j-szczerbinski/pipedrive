@@ -15,8 +15,8 @@ function App() {
       <Header />
       <UnsereService />
       <MehrAbs />
-      {/* <MehrKund />
-      <Ablauf />
+      <MehrKund />
+      {/* <Ablauf />
       <Buche />
       <Referenzen />
       <Uber />
