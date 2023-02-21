@@ -14,8 +14,8 @@ function App() {
     <div className={styles.app}>
       <Header />
       <UnsereService />
-      {/* <MehrAbs />
-      <MehrKund />
+      <MehrAbs />
+      {/* <MehrKund />
       <Ablauf />
       <Buche />
       <Referenzen />

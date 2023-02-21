@@ -2,21 +2,59 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 124px 0 125.89px;
+    margin: 30px 0 30px 0;
+    @media (min-width: 768px) {
+        margin: 75px 0 75px 0;
+    }
+    @media (min-width: 1024px) {
+        margin: 124px 0 126px 0;
+    }
 }
 
 .mehrAbs__container{
-    width: 834px;
-    height: 314.67px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    @media (min-width: 768px) {
+        flex-direction: row;
+        gap: 50px;
+        margin: 0 100px;
+    }
+    @media (min-width: 1440px) {
+        gap: 100px;
+        margin: 0 303px;
+    }
 }
 
 .mehrAbs__text{
-    font-size: 35px;
+    font-size: 18px;
     font-weight: 600;
     color: #192435;
     line-height: 145%;
     letter-spacing: -0.03em;
+    text-align: center;
+    margin: 0 20px;
+    @media (min-width: 768px) {
+        margin: 0;
+        font-size: 24px;
+        text-align: left;
+    }
+    @media (min-width: 1024px) {
+        font-size: 35px;
+    }
+}
+
+.mehrAbs__imageContainer{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 0 0;
+}
+
+.mehrAbs__image{
+    width: 150px;
+    @media (min-width: 768px) {
+        width: 200px;
+    }
 }
 
 span{
