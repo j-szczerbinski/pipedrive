@@ -14,32 +14,55 @@
     display: flex;
     align-items: center;
     padding: 0;
-    width: 80%;
+    margin: 0 auto;
+    width: 95%;
+    justify-content: space-between;
+    @media (min-width: 768px) {
+        
+    }
+    @media (min-width: 1024px) {
+        
+    }
+    @media (min-width: 1440px) {
+        width: 80%;
+    }
 }
 
 .header__logo{
-    width: 190px;
-    height: 26px;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 16px;
     line-height: 116%;
     letter-spacing: -0.03em;
     color: #017737;
+    @media (min-width: 1024px) {
+        font-size: 22px;
+    }
 }
 
 .header__menu{
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    right: 120px;
     width: 60%;
-
-    @media (min-width: 1440px) {
-        
+    gap: 56px;
+    @media (min-width: 768px) {
+        display: flex;
+        font-size: 12px;
+        gap: 16px;
     }
-    height: 17px;
-    margin: 0 0 0 133px;
+    @media (min-width: 1024px) {
+        gap: 22px;
+        font-size: 12px;
+    }
+    @media (min-width: 1440px) {
+        width: 60%;
+        gap: 56px;
+        font-size: 14px;
+    }
+    @media (min-width: 2560px) {
+        gap: 150px;
+        font-size: 18px;
+    }
 }
 
 .header__linksContainer{
@@ -53,7 +76,6 @@
 .header__link{
     font-family: 'Inter', sans-serif;
     font-weight: 600;
-    font-size: 14px;
     line-height: 17px;
     opacity: 0.7;
     text-decoration: none;
@@ -61,15 +83,46 @@
 }
 
 .header__button{
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     color: #FFFFFF;
     background-color: #6861F2;
-    height: 40px;
-    width: 200px;
     border: none;
     border-radius: 10px;
     font-family: 'Inter', sans-serif;
-    margin: 0 0 0 133px;
+    @media (min-width: 768px) {
+        display: flex;
+        height: 30px;
+        width: 150px;
+        font-size: 12px;
+    }
+    @media (min-width: 1024px) {
+        height: 40px;
+        width: 200px;
+    }
+}
+
+#react-burger-menu-btn{
+    width: 10px;
+    height: 10px;
+}
+
+.header__hamburger{
+    @media (min-width: 768px) {
+        display: none;
+    }
+}
+
+.bm-menu-wrap{
+    top: 0;
+    right: 0;
+}
+
+.bm-burger-button{
+    position: fixed;
+}
+
+.bm-burger-bars{
+    background: #017737;
 }
