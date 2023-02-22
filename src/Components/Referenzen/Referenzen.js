@@ -14,6 +14,9 @@ const Referenzen = () => (
                 <div className={styles.referenzen__arrowLeft}>
                     <img src={arrowLeft} />
                 </div>
+                <div className={styles.referenzen__arrowRight}>
+                    <img src={arrowRight} />
+                </div>
                 <div className={styles.referenzen__image}>
                     <img src={slack} />
                 </div>
@@ -27,9 +30,6 @@ const Referenzen = () => (
                         class={styles.referenzen__button}
                         text="Zu case study"
                     />
-                </div>
-                <div className={styles.referenzen__arrowRight}>
-                    <img src={arrowRight} />
                 </div>
             </div>
         </div>
