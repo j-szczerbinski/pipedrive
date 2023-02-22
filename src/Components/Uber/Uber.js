@@ -6,7 +6,7 @@ import rightIcons from '../../Images/Uber/rightIcons.png';
 const Uber = () => (
     <section className={styles.uber}>
         <div className={styles.uber__container}>
-            <div className={styles.uber__leftIcons}>
+            <div className={styles.uber__icons}>
                 <img src={leftIcons} />
             </div>
             <div className={styles.uber__textContainer}>
@@ -15,7 +15,7 @@ const Uber = () => (
                     <p className={styles.uber__p}>Expand the capabilities of Pipedrive with hundreds of apps and integrations</p>
                 </div>
             </div>
-            <div className={styles.uber__rightIcons}>
+            <div className={styles.uber__icons}>
                 <img src={rightIcons} />
             </div>
         </div>

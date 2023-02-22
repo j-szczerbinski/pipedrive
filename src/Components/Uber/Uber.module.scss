@@ -3,18 +3,22 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    top: -14px;
-    margin: 99px 0 102px 0;
+    margin: 10px 0 0 0;
     overflow: hidden;
     width: 100%;
 }
 
 .uber__container{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding: 0;
     gap: 35px;
     width: 100%;
+    @media (min-width: 1024px) {
+        flex-direction: row;
+    }
 }
 
 .uber__textContainer{
@@ -23,8 +27,6 @@
     align-items: center;
     padding: 0;
     gap: 19px;
-    height: 133px;
-    width: 500px;
 }
 
 .uber__text{
@@ -33,6 +35,8 @@
     align-items: center;
     padding: 0px;
     gap: 13px;
+    margin: 0 20px;
+    max-width: 485px;
 }
 
 .uber__h1{
@@ -54,4 +58,8 @@
     color: #353535;
     opacity: 0.8;
     margin: 0;
+}
+
+.uber__icons > img{
+    width: 100%;
 }

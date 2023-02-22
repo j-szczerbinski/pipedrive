@@ -74,21 +74,27 @@
 }
 
 .referenzen__h1{
-    font-size: 34px;
+    font-size: 30px;
     line-height: 135%;
     color: #017737;
     font-weight: 600;
     margin: 0;
+    @media (min-width: 768px) {
+        font-size: 35px;
+    }
 }
 
 .referenzen__p{
     font-family: 'Inter', sans-serif;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 14px;
     line-height: 149.5%;
     color: #353535;
     opacity: 0.6;
     margin: 10px 0 0 0;
+    @media (min-width: 768px) {
+        font-size: 20px;
+    }
 }
 
 .referenzen__button{
