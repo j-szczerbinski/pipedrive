@@ -20,7 +20,7 @@ function App() {
       <Buche />
       <Referenzen />
       <Uber />
-      {/* <Form1 /> */}
+      <Form1 />
     </div>
   );
 }
