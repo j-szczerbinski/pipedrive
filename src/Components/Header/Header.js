@@ -69,6 +69,11 @@ class Header extends React.Component {
                             <a id='caseStudies' className={styles.hamburger__item} href="/case_studies">Case Studies</a>
                             <a id='pricing' className={styles.hamburger__item} href="/pricing">Pricing</a>
                             <a id='faqs' className={styles.hamburger__item} href="/faqs">FAQs</a>
+                            <Button 
+                                text="Gespräch vereinbaren"
+                                class={styles.hamburger__button}
+                                onClick={() => alert("pressed the header button")}
+                            />
                         </Menu>
                     </div>
             </nav>

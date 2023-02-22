@@ -103,7 +103,7 @@
 
 .hamburger__logo{
     font-weight: 600;
-    font-size: 16px;
+    font-size: 30px;
     line-height: 116%;
     letter-spacing: -0.03em;
     color: #FFFFFF;
@@ -145,8 +145,6 @@
 }
 
 .hamburger__item{
-    position: relative;
-    top: 10%;
     text-decoration: none;
     color: #FFFFFF;
     width: 200px;
@@ -159,4 +157,23 @@
 
 .hamburger__itemList{
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hamburger__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: rgba($color: #FFFFFF, $alpha: 0.2);
+    border: solid #6861F2;
+    border-radius: 15px;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    width: 220px;
+    height: 50px;
+    padding: 10px;
 }
