@@ -1,125 +1,89 @@
 .ablauf{
-    height: 175vh;
     overflow: hidden;
 }
 
 .ablauf__header{
     color: #192435;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 116%;
     letter-spacing: -0.03em;
     text-align: center;
-    margin-top: 209px;
-    margin-bottom: 0;
+    margin: 150px 0 0 0;
 }
 .ablauf__container{
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    @media (min-width: 1024px) {
+        margin: 0 20px;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    @media (min-width: 1550px) {
+        margin: 0 122px;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .ablauf__tilesContainer{
-    margin-top: 112.45px;
-    width: 1195.87px;
-    height: 830.12px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 20px 10px 0 10px;
+    @media (min-width: 768px) {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+        max-width: 748px;
+    }
+    @media (min-width: 1024px) {
+        max-width: none;
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 0;
+        justify-content: flex-start;
+    }
+    @media (min-width: 1550px) {
+        max-width: 1325px;
+    }
 }
 
-.ablauf__tile1 {
+.ablauf__tile {
     display: flex;
+    flex-direction: column;
     align-items: center;
     background-color: #017737;
     border-radius: 12px;
-    width: 484.87px;
-    height: 205.87px;
     gap: 18px;
-    padding: 0 0 0 20px;
-}
-
-.ablauf__tile2 {
-    background-color: #017737;
-    border-radius: 12.4px;
-    display: flex;
-    align-items: center;
-    gap: 18px;
-    padding: 0 0 0 20px;
-    width: 483.87px;
-    height: 207.77px;
-    position: relative;
-    left: 48vw;
-}
-
-.ablauf__tile3 {
-    background-color: #017737;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
     padding: 20px;
-    gap: 18px;
-    width: 450px;
-    position: relative;
+    max-width: 257px;
+    margin: 20px 0 0 0;
+    @media (min-width: 768px) {
+        margin: 0;
+    }
+    @media (min-width: 1024px) {
+        flex-direction: row;
+        max-width: 500px;
+        margin: 20px 0 0 0;
+    }
 }
 
-.ablauf__tile4 {
-    background-color: #017737;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    width: 571.87px;
-    height: 208.12px;
-    gap: 18px;
-    padding: 0 0 0 20px;
-    position: relative;
-    left: 45vw;
+.ablauf__tile:nth-child(even){
+    @media (min-width: 1024px) {
+        margin: 20px 0 0 auto;   
+    }
 }
 
-.ablauf__image2{
-    width: 256.87px;
-    height: 167.77px;
-}
-
-.ablauf__side1{
+.ablauf__side{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 0;
-    height: 115.43px;
-}
-
-.ablauf__side2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 0;
-    height: 160px;
-    width: 169px;
-}
-
-.ablauf__side3{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 0;
-    gap: 10px;
-    height: 115px;
-    width: 148px;
-}
-
-.ablauf__side4{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 0;
-    gap: 10px;
-    height: 115px;
-    width: 257px;
+    width: 80%;
 }
 
 .ablauf__textContainer{
@@ -151,17 +115,17 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 155%;
-    margin: 5px 0 10px 0;
+    margin: 0;
 }
 
-.ablauf__button1{
-    width: 137px;
+.ablauf__button{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 8.86px 0px;
     gap: 8.86px;
-    font-family: inherit;
+    font-family: 'Inter', sans-serif;
     border: none;
     background-color: #E1DFFC;
     border-radius: 8.86px;
@@ -169,55 +133,70 @@
     font-weight: 500;
     font-size: 12.4px;
     line-height: 19px;
-}
-
-.ablauf__button2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 8.86px 0px;
-    gap: 8.86px;
-    width: 162px;
-    height: 35px;
-    background-color: #FFFFFF;
-    border-radius: 8.86px;
-    border: none;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    font-size: 12.4px;
-    line-height: 19px;
-    text-align: center;
-    color: #6861F2;
+    @media (min-width: 1024px) {
+        margin: 30px 0 0 0;
+    }
 }
 
 .ablauf__noButton{
     display: none;
+    @media (min-width: 1300px) {
+       display: inline; 
+    }
 }
 
 .ablauf__arrow1{
-    position: relative;
-    top: -730px;
+    display: none;
+    @media (min-width: 1300px) {
+        display: inline; 
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 15%;
+    }
 }
 
 .ablauf__arrow2{
-    position: relative;
-    top: -670px;
+    display: none;
+    @media (min-width: 1300px) {
+        display: inline; 
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 45%;
+    }
 }
 
 .ablauf__arrow3{
-    position: relative;
-    top: -600px;
-    left: -30px;
+    display: none;
+    @media (min-width: 1300px) {
+        display: inline; 
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 70%;
+    }
 }
 
 .ablauf__vectorRight{
-    position: relative;
-    top: -1400px;
-    left: 668px;
+    display: none;
+    @media (min-width: 1024px) {
+        display: inline;
+        position: absolute;
+        right: -20px;
+        top: -10px;
+    }
+    @media (min-width: 1550px) {
+        right: -122px;
+    }
 }
 
 .ablauf__circlesImg{
-    position: relative;
-    top: -700px;
-    left: -45vw;
+    display: none;
+    @media (min-width: 1024px) {
+        display: inline;
+        position: absolute;
+        bottom: -250px;
+        left: -122px;
+    }
 }

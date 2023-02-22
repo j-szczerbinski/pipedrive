@@ -18,44 +18,43 @@ const Ablauf = () => (
             <div className={styles.ablauf__tilesContainer}>
                 <AblaufTile 
                     image={image1}
-                    tileClass={styles.ablauf__tile1}
+                    tileClass={styles.ablauf__tile}
                     text="Wir laden Sie ein, gemeinsam Pipedrive kennenzulernen"
                     number="1"
                     button="30 Tage testen"
-                    sideClass={styles.ablauf__side1}
+                    sideClass={styles.ablauf__side}
                     textContainer={styles.ablauf__textContainer}
                     numberClass={styles.ablauf__number}
                     textClass={styles.ablauf__text}
-                    buttonClass={styles.ablauf__button1}
+                    buttonClass={styles.ablauf__button}
                 />
                 <AblaufTile 
                     image={image2}
-                    tileClass={styles.ablauf__tile2}
+                    tileClass={styles.ablauf__tile}
                     text="Gemeinsam das volle Pipedrive Potenzial entdecken"
                     number="2"
                     button="Gespräch vereinbaren"
-                    sideClass={styles.ablauf__side2}
+                    sideClass={styles.ablauf__side}
                     numberClass={styles.ablauf__number}
                     textClass={styles.ablauf__text}
-                    buttonClass={styles.ablauf__button2}
-                    imgClass={styles.ablauf__image2}
+                    buttonClass={styles.ablauf__button}
                 />
                 <AblaufTile 
                     image={image3}
-                    tileClass={styles.ablauf__tile3}
+                    tileClass={styles.ablauf__tile}
                     text="On-Boarding"
                     number="3"
-                    sideClass={styles.ablauf__side3}
+                    sideClass={styles.ablauf__side}
                     numberClass={styles.ablauf__number}
                     textClass={styles.ablauf__text}
                     buttonClass={styles.ablauf__noButton}
                 />
                 <AblaufTile 
                     image={image4}
-                    tileClass={styles.ablauf__tile4}
+                    tileClass={styles.ablauf__tile}
                     text="Integration und Automatisierung | Mit individuellen Lösungen Pipedrive noch effektiver machen"
                     number="4"
-                    sideClass={styles.ablauf__side4}
+                    sideClass={styles.ablauf__side}
                     numberClass={styles.ablauf__number}
                     textClass={styles.ablauf__text}
                     buttonClass={styles.ablauf__noButton}
