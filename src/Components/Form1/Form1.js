@@ -1,5 +1,7 @@
 import React from "react";
 import styles from './Form1.module.scss';
+import vectorLeft from '../../Images/Form1/vectorLeft.png';
+import vectorRight from '../../Images/Form1/vectorRight.png';
 
 const Form1 = () => (
     <section className={styles.form1}>
@@ -16,6 +18,8 @@ const Form1 = () => (
                     <input placeholder="lorem"className={styles.form1__formItem} type="text" name="lorem" />
                 </label>
             </form>
+        <img src={vectorLeft} className={styles.form1__vectorLeft} />
+        <img src={vectorRight} className={styles.form1__vectorRight} />
         </div>
     </section>
 );
